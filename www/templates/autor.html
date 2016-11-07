@@ -1,0 +1,34 @@
+<ion-content>
+	<div class="bar bar-header bar-positive">
+ 	 	<h1 class="title"></h1>
+ 	 	<a ui-sref="main" class="button button-icon icon icon-left ion-chevron-left">Regresar</a>
+  		<div class="h1 title">Autor</div>
+	</div>
+	<br><br>
+	<div class="card">
+		  <div class="item item-divider">
+		  	Informacion
+		  </div>
+		  <div class="item item-text-wrap">
+		  	Aplicacion desarrollada por Jose Navarrete. Puede consultar su curriculum vitae, numero de telefono y direccion
+		  </div>
+		   <div class="item item-divider icon-left">
+		   	<a ui-sref="curriculum" class="button ion-ios-book-outline">    Curriculum Vitae</a>
+		  </div>
+		  <div class="item item-divider icon-left">
+		   	<a href="mailto:laloalanis22@gmail.com" class="button ion-android-mail">   {{author.email}}</a>
+		  </div>
+		  <div class="item item-divider icon-left">
+		   	<a href="https://twitter.com/iUnGZZ" class="button ion-social-twitter">    {{author.twitter}}</a>
+		  </div>
+		  <div class="item item-divider icon-left">
+		   	<a href="tel: +52 -614-168-13-99" class="button ion-android-call">     {{author.phone}}</a>
+            <div class="item item-divider icon-left">
+		   	<a href="Direccion: Garsilaso de la vega #14740 Col. Chihuahua 2000-94" class="button ion-clipboard">   {{author.address}}</a>
+		  </div>
+		  <div class="item item-divider icon-left">
+		   	<a href="https://www.facebook.com/pepelalo.alanis" class="button ion-social-facebook">  {{author.facebook}}</a>
+		  </div>
+		  </div>
+	</div>
+</ion-content>
